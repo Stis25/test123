@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Поле для ввода поискового запроса -->
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите запрос" />
+
+    <!-- Кнопка поиска -->
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поиск" />
+
+    <!-- Кнопка нравится -->
+    <Button
+        android:id="@+id/likeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нравится" />
+
+    <!-- Кнопка не нравится -->
+    <Button
+        android:id="@+id/dislikeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Не нравится" />
+
+    <!-- Кнопка открыть сайт -->
+    <Button
+        android:id="@+id/openSiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть сайт" />
+
+    <!-- Кнопка найти похожее -->
+    <Button
+        android:id="@+id/findSimilarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Найти похожее изображение" />
+
+</LinearLayout>
